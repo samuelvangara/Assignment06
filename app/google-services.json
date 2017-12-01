@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "232691289222",
+    "firebase_url": "https://simple-notepad-75604.firebaseio.com",
+    "project_id": "simple-notepad-75604",
+    "storage_bucket": "simple-notepad-75604.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232691289222:android:17858a8bf5e381a2",
+        "android_client_info": {
+          "package_name": "foxycorp.simplenotepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232691289222-1nlbhv0b24t3vkvok3tjhh564ma5tqk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN8yNIMK-p35lI7PDnfHYiVROvL2yRmPQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

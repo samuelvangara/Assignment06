@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdActivity">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/interstitial_ad_sample"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/next_level_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show-Ad"
+        android:layout_marginBottom="51dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignBottom="@+id/app_title"
+        android:layout_alignLeft="@+id/app_title"
+        android:layout_alignStart="@+id/app_title" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignBaseline="@+id/next_level_button"
+        android:layout_alignBottom="@+id/next_level_button"
+        android:layout_alignRight="@+id/app_title"
+        android:layout_alignEnd="@+id/app_title"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp" />
+</RelativeLayout>
